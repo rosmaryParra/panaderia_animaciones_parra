@@ -1,0 +1,32 @@
+/* IMG FONDO PRINCIPAL */
+body {
+	background-image: url(../assets/img/fondobody1.jpg);
+	overflow-x: hidden;
+}
+/* FIN IMG Fondo Principal */
+
+/* MODIFICANDO MENU */
+.header__nav {
+	background-color: limegreen;
+	margin: 30px 50px 40px 50px;
+	margin-color: black;
+	padding: 40px 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+}
+.nav__list {
+	display: inline;
+}
+.nav__list-a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+li {
+	text-decoration: none;
+}
+a:hover {
+	color: darkgoldenrod;
+}
+/* FIN Modificando Menu */
