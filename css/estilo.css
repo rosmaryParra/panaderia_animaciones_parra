@@ -110,6 +110,13 @@ a:hover {
 }
 /* FIN Modificando Blog */
 
+/* APLICO ANIMACIONES, ETC */
+.main_ani {
+	background-image: linear-gradient(to right, blueviolet, black, red);
+}
+
+/* FIN Animaciones, etc */
+
 /* APLICO GRIDS AL INDEX */
 .contenedorPadre-index {
 	display: grid;
