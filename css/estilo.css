@@ -5,6 +5,12 @@ body {
 }
 /* FIN IMG Fondo Principal */
 
+/* INCLUYO TIPOGRAFIA */
+* {
+    font-family: 'Mochiy Pop P One', sans-serif;
+   }
+/* TERMINA I TIPOGRAFIA */
+
 /* MODIFICANDO MENU */
 .header__nav {
 	background-color: limegreen;
