@@ -1,0 +1,105 @@
+/* IMG FONDO PRINCIPAL */
+body {
+	background-image: url(../assets/img/fondobody1.jpg);
+	overflow-x: hidden;
+}
+/* FIN IMG Fondo Principal */
+
+/* MODIFICANDO MENU */
+.header__nav {
+	background-color: limegreen;
+	margin: 30px 50px 40px 50px;
+	margin-color: black;
+	padding: 40px 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+}
+.nav__list {
+	display: inline;
+}
+.nav__list-a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+li {
+	text-decoration: none;
+}
+a:hover {
+	color: darkgoldenrod;
+}
+/* FIN Modificando Menu */
+
+/* MODIFICANDO PARTE LOGO */
+.logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.nombre_logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: ghostwhite;
+}
+/* FIN Modificando Parte Logo */
+.main_titulo-index {
+	color: ghostwhite;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.foto_index-modif {
+	width: 100%;
+	margin: 40px 0px 100px 0px;
+	padding: 0px 300px 0px 65px;
+}
+/* FIN Modificando Index */
+
+/* MODIFICANDO TITULOS PRINCIPALES*/
+.titulo_principal {
+	color: ghostwhite;
+	text-align: right;
+	margin: 30px 5px 50px 5px;
+}
+/* FIN Modificando Titulos Principales */
+
+/* MODIFICANDO REDES SOCIALES*/
+.footer_nombreRedes {
+	color: ghostwhite;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: darkred;
+}
+.footer_iconos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+/* FIN Modificando Redes Sociales */
+
+/* MODIFICANDO BLOG */
+.main_subti {
+	color: ghostwhite;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+} 
+.titulos {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+.main_infor {
+	color: ghostwhite;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.main_fotos {
+	width: 100%;
+}
+/* FIN Modificando Blog */
