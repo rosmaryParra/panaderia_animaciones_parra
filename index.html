@@ -4,14 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>INICIO</title>
-<!-- LINKEO CSS-->
-    <link rel="stylesheet" href="css/estilo.css">
-<!-- FIN LINKEO CSS--> 
+<!-- AGREGO ANIMACIONES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- FIN ANIMACIONES -->     
 <!-- AGREGO TIPOGRAFIA -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
   <!-- FIN A TIPOGRAFIA-->   
+  <!-- LINKEO CSS-->
+    <link rel="stylesheet" href="css/estilo.css">
+<!-- FIN LINKEO CSS-->
   </head>
   <body>
 <!-- CONTENEDOR PADRE PRINCIPAL INDEX-->  	
@@ -19,16 +22,18 @@
 <!-- ENCABEZADO -->
 		<header class="header_index">
 <!-- LOGO -->
-    <div class="logo">
+    <div class="logo" data-aos="fade-down">
         <img src="assets/img/logo.png" alt="logo">
     </div>
 <!-- FIN Logo -->
-    <div class="nombre_logo">
+    <div class="nombre_logo" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
         <h3>IRISH BAKERS</h3>
     </div>            
 <!-- MENU PRINCIPAL -->
     <nav>
-     <ul class="header__nav">
+     <ul class="header__nav" data-aos="flip-up">
         <li class="nav__list"><a href="index.html" class="nav__list-a">INICIO</a></li>
         <li class="nav__list"><a href="views/nosotros.html" class="nav__list-a">NOSOTROS</a></li>
         <li class="nav__list"><a href="views/productos.html" class="nav__list-a">PRODUCTOS</a></li>
@@ -41,18 +46,20 @@
 <!-- FIN ENCABEZADO --> 
 <!-- INICIO CONTENIDO -->       
 		<main class="main_index">
-       <div class="main_titulo-index titulo_index-ani">
+       <div class="main_titulo-index titulo_index-ani" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       <h1>PANADERIA-PASTELERIA</h1>
        </div>
 <!-- INICIO FOTO PRINCIPAL-->
-        <div class="foto_index-modif">
+        <div class="foto_index-modif" data-aos="zoom-in-right">
             <img src="assets/img/torta.jpg" alt="torta">
         </div>
 <!-- FIN Fto Principal-->    
         </main>
 <!-- FIN CONTENIDO --> 
 <!-- INICIO FOOTER -->       
-		<footer class="footer.index">
+		<footer class="footer.index" data-aos="zoom-out">
 <!-- INICIO REDES SOCIALES-->
       <div class="footer_nombreRedes">
         <h4>REDES SOCIALES</h4>
@@ -73,5 +80,11 @@
 <!-- FIN FOOTER -->        
 	</div>
 <!--CONTENEDOR PADRE PRINCIPAL INDEX-->	
+<!-- INICIALIZO ANIMACIONES --> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+<!-- FIN INICIALIZO ANIMACIONES -->     
   </body>
   </html>
