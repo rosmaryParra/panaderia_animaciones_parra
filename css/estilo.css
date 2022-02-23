@@ -1,7 +1,7 @@
 /* IMG FONDO PRINCIPAL */
 body {
-	background-image: url(../assets/img/fondobody1.jpg);
-	overflow-x: hidden;
+	    background-image: url(../assets/img/fondobody1.jpg);
+		overflow-x: hidden;
 }
 /* FIN IMG Fondo Principal */
 
@@ -147,3 +147,50 @@ a:hover {
 .main_blog {grid-area: main;}
 .footer_blog {grid-area: footer;}
 /* FIN Aplico Grids A Blog */
+
+/* MEDIA QUERIE DESKTOP */
+@media only screen and (min-width 1024px) {
+     
+}
+/* FIN MEDIA QUERIE DESKTOP */
+
+/*MEDIA QUERIE MOBILE*/
+@media only screen and (min-width 300px) and (max-width 768px) {
+	  /* INDEX */
+.contenedorPadre-index {
+	display: grid;
+	grid-template-areas: 
+	"header"
+	"main"
+	"footer";
+     grid-template-columns: 100%;
+     grid-template-rows: auto auto auto;
+}
+.header_index {grid-area: header;}
+.main_index  {grid-area: main;}
+.footer_index {grid-area: footer;
+ display: flex;
+ flex-direction: column;
+}
+.foto_index-modif {
+	width: 100%;
+}
+     /* FIN INDEX */
+     /* BLOG */
+.contenedorPadre-blog {
+   display: grid;
+   grid-template-areas: 
+   "header"
+   "main"
+   "footer";
+   grid-template-columns: 100%;
+   grid-template-rows: auto auto auto;
+}
+.header_blog {grid-area: header;}
+.main_blog {grid-area: main;}
+.footer_blog {grid-area: footer;}
+
+  /* FIN BLOG */
+}
+/* FIN MEDIA QUERIE MOBILE */
+
